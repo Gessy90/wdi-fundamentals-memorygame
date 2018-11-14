@@ -59,11 +59,11 @@ footer {
   font-weight: 500;
 }
 .copyright {
-  font-family: "Raleway";
+  font-family: Raleway;
   float: left;
 }
 .message {
-  font-family: "Raleway";
+  font-family: Raleway;
   float: right;
 }
 .clearfix:after {
@@ -73,4 +73,22 @@ content: " ";
 clear: both;
 height: 0;
 font-size: 0;
+}
+.name {
+  color: #F15B31;
+  font-weight: 700;
+}
+a {
+text-decoration: none;
+  font-family: Raleway;
+  margin: 0 20px;
+  text-transform: uppercase;
+  color: white;
+  border-bottom: 2px solid transparent;
+}
+
+a:hover {
+  background-color: #F15B31;
+  border-color: white;
+  text-decoration: none;
 }
