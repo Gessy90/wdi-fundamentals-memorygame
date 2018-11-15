@@ -21,7 +21,7 @@ var cards= [
     rank: "king",
     suit: "diamonds",
     cardImage: "images/king-of-diamonds.png",
-   };
+   }
 ]
 
 var cardsInPlay = [];
@@ -30,7 +30,7 @@ var checkForMatch = function() {
      alert("You found a match!");
       } else {
       alert("Sorry, try again");
-        };
+        }
 
   };
 
@@ -42,7 +42,7 @@ var flipCard = function () {
 	console.log(cards[cardID].cardImage);
 	console.log(cards[cardID].suit
 
-	if (cardsInPlay.length === 2) {
+	if (cardsInPlay.length === 2); {
 		checkForMatch();
 
 		cardsInPlay =[];
