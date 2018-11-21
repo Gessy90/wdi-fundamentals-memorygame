@@ -40,7 +40,7 @@ var flipCard = function () {
 	cardsInPlay.push(cards[cardID].rank);
 	this.setAttribute('src', cards[cardID].cardImage);
 	console.log(cards[cardID].cardImage);
-	console.log(cards[cardID].suit
+	console.log(cards[cardID].suit)
 
 	if (cardsInPlay.length === 2); {
 		checkForMatch();
