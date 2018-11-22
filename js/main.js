@@ -43,7 +43,7 @@ var flipCard = function () {
 	console.log(cards[cardID].cardImage);
 	console.log(cards[cardID].suit)
 
-	if (cardsInPlay.length === 2); {
+	if (cardsInPlay.length === 2) {
 		checkForMatch();
 
 		cardsInPlay =[];
